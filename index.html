@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.css">
+  <title>To-Do List</title>
+</head>
+<body>
+<section>
+    
+     <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                   <div class="card-header bg-success text-center ">
+                        <h1 class="fs-1 fst-italic text-capitalize  "> to do list</h1>
+                     </div>
+                   <div class="card-body bg-light">
+                    <div class="input-container mb-3 d-flex flex-row justify-content-center align-items-center  gap-1">
+                       <input id="task" type="text" class="form-control" placeholder="please enter new task" >
+                        <button id="addTask" class="btn btn-light" type="button">+</button>
+                    </div>
+                     <div>
+                      <ul id="list">
+                       
+                      </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
